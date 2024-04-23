@@ -1,0 +1,567 @@
+{
+  "Vegetable": [
+    {
+      "name": "Cabbage",
+      "photo_url": "https://www.freepngimg.com/thumb/categories/2970.png",
+      "quantity": "One Unit",
+      "id": 1,
+      "price": 30
+    },
+    {
+      "name": "Capsicum",
+      "photo_url": "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
+      "quantity": "One Unit",
+      "id": 2,
+      "price": 5
+    },
+    {
+      "name": "Garlic",
+      "photo_url": "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
+      "quantity": "One Unit",
+      "id": 3,
+      "price": 20
+    },
+    {
+      "name": "Beetroot",
+      "photo_url": "https://pngimg.com/uploads/beet/beet_PNG28.png",
+      "quantity": "One Unit",
+      "id": 4,
+      "price": 20
+    },
+    {
+      "name": "Tomatoes",
+      "photo_url": "https://www.freepngimg.com/thumb/categories/2985.png",
+      "quantity": "One Unit",
+      "id": 5,
+      "price": 5
+    },
+    {
+      "name": "Celeriac",
+      "photo_url": "https://w7.pngwing.com/pngs/252/146/png-transparent-celeriac-leaf-vegetable-food-celery-herbes-leaf-vegetable-food-plant-stem-thumbnail.png",
+      "quantity": "One Bunch",
+      "id": 6,
+      "price": 5
+    },
+    {
+      "name": "Carrots",
+      "photo_url": "https://www.freepngimg.com/thumb/categories/2971.png",
+      "quantity": "One Kg",
+      "id": 7,
+      "price": 60
+    },
+    {
+      "name": "Onions",
+      "photo_url": "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
+      "quantity": "One Kg",
+      "id": 8,
+      "price": 120
+    },
+    {
+      "name": "Potatoes",
+      "photo_url": "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
+      "quantity": "One container",
+      "id": 9,
+      "price": 80
+    }
+  ],
+  "fruits": [
+    {
+      "name": "Apple",
+      "photo_url": "https://www.freepngimg.com/thumb/apple_fruit/3-apple-fruit-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 10,
+      "price": 25
+    },
+    {
+      "name": "Banana",
+      "photo_url": "https://www.freepngimg.com/thumb/banana/8-banana-png-image-thumb.png",
+      "quantity": "One Bunch",
+      "id": 11,
+      "price": 15
+    },
+    {
+      "name": "Orange",
+      "photo_url": "https://www.freepngimg.com/thumb/orange/4-orange-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 12,
+      "price": 20
+    },
+    {
+      "name": "Grapes",
+      "photo_url": "https://www.freepngimg.com/thumb/grape/7-grape-png-image-thumb.png",
+      "quantity": "One Bunch",
+      "id": 13,
+      "price": 35
+    },
+    {
+      "name": "Strawberry",
+      "photo_url": "https://www.freepngimg.com/thumb/strawberry/4-strawberry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 14,
+      "price": 40
+    },
+    {
+      "name": "Pineapple",
+      "photo_url": "https://www.freepngimg.com/thumb/pineapple/1-pineapple-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 15,
+      "price": 30
+    },
+    {
+      "name": "Watermelon",
+      "photo_url": "https://www.freepngimg.com/thumb/watermelon/6-watermelon-png-image-thumb.png",
+      "quantity": "One Slice",
+      "id": 16,
+      "price": 10
+    },
+    {
+      "name": "Mango",
+      "photo_url": "https://www.freepngimg.com/thumb/mango/1-2-mango-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 17,
+      "price": 45
+    },
+    {
+      "name": "Peach",
+      "photo_url": "https://www.freepngimg.com/thumb/peach/2-peach-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 18,
+      "price": 35
+    },
+    {
+      "name": "Cherry",
+      "photo_url": "https://www.freepngimg.com/thumb/cherry/1-cherry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 19,
+      "price": 50
+    },
+    {
+      "name": "Plum",
+      "photo_url": "https://www.freepngimg.com/thumb/plum/7-plum-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 20,
+      "price": 30
+    },
+    {
+      "name": "Kiwi",
+      "photo_url": "https://www.freepngimg.com/thumb/kiwi/3-kiwi-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 21,
+      "price": 20
+    },
+    {
+      "name": "Lemon",
+      "photo_url": "https://www.freepngimg.com/thumb/lemon/9-lemon-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 22,
+      "price": 25
+    },
+    {
+      "name": "Pear",
+      "photo_url": "https://www.freepngimg.com/thumb/pear/1-pear-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 23,
+      "price": 30
+    },
+    {
+      "name": "Raspberry",
+      "photo_url": "https://www.freepngimg.com/thumb/raspberry/5-raspberry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 24,
+      "price": 40
+    },
+    {
+      "name": "Apricot",
+      "photo_url": "https://www.freepngimg.com/thumb/apricot/3-apricot-png-image-thumb.png",
+      "quantity": "One Unit",
+      "id": 25,
+      "price": 35
+    },
+    {
+      "name": "Cantaloupe",
+      "photo_url": "https://www.freepngimg.com/thumb/cantaloupe/2-cantaloupe-png-image-thumb.png",
+      "quantity": "One Slice",
+      "id": 26,
+      "price": 15
+    },
+    {
+      "name": "Blueberry",
+      "photo_url": "https://www.freepngimg.com/thumb/blueberry/1-blueberry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 27,
+      "price": 45
+    },
+    {
+      "name": "Blackberry",
+      "photo_url": "https://www.freepngimg.com/thumb/blackberry/6-blackberry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 28,
+      "price": 30
+    },
+    {
+      "name": "Cranberry",
+      "photo_url": "https://www.freepngimg.com/thumb/cranberry/3-cranberry-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 29,
+      "price": 35
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Coffee",
+      "photo_url": "https://www.freepngimg.com/thumb/coffee/4-2-coffee-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 30,
+      "price": 25
+    },
+    {
+      "name": "Tea",
+      "photo_url": "https://www.freepngimg.com/thumb/tea/3-tea-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 31,
+      "price": 20
+    },
+    {
+      "name": "Orange Juice",
+      "photo_url": "https://www.freepngimg.com/thumb/juice/1-orange-juice-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 32,
+      "price": 35
+    },
+    {
+      "name": "Lemonade",
+      "photo_url": "https://www.freepngimg.com/thumb/lemonade/3-lemonade-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 33,
+      "price": 30
+    },
+    {
+      "name": "Cola",
+      "photo_url": "https://www.freepngimg.com/thumb/cola/1-cola-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 34,
+      "price": 40
+    },
+    {
+      "name": "Milkshake",
+      "photo_url": "https://www.freepngimg.com/thumb/milkshake/5-milkshake-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 35,
+      "price": 45
+    },
+    {
+      "name": "Iced Tea",
+      "photo_url": "https://www.freepngimg.com/thumb/tea/11-iced-tea-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 36,
+      "price": 25
+    },
+    {
+      "name": "Smoothie",
+      "photo_url": "https://www.freepngimg.com/thumb/smoothie/5-smoothie-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 37,
+      "price": 50
+    },
+    {
+      "name": "Hot Chocolate",
+      "photo_url": "https://www.freepngimg.com/thumb/hot_chocolate/4-hot-chocolate-png-image-thumb.png",
+      "quantity": "One Cup",
+      "id": 38,
+      "price": 30
+    },
+    {
+      "name": "Beer",
+      "photo_url": "https://www.freepngimg.com/thumb/beer/5-beer-png-image-thumb.png",
+      "quantity": "One Bottle",
+      "id": 39,
+      "price": 55
+    },
+    {
+      "name": "Wine",
+      "photo_url": "https://www.freepngimg.com/thumb/wine/9-wine-png-image-thumb.png",
+      "quantity": "One Bottle",
+      "id": 40,
+      "price": 60
+    },
+    {
+      "name": "Soda",
+      "photo_url": "https://www.freepngimg.com/thumb/soda/2-2-soda-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 41,
+      "price": 20
+    },
+    {
+      "name": "Sparkling Water",
+      "photo_url": "https://www.freepngimg.com/thumb/sparkling_water/1-sparkling-water-png-image-thumb.png",
+      "quantity": "One Bottle",
+      "id": 42,
+      "price": 15
+    },
+    {
+      "name": "Energy Drink",
+      "photo_url": "https://www.freepngimg.com/thumb/energy_drink/5-energy-drink-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 43,
+      "price": 50
+    },
+    {
+      "name": "Cocktail",
+      "photo_url": "https://www.freepngimg.com/thumb/cocktail/1-cocktail-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 44,
+      "price": 65
+    },
+    {
+      "name": "Mojito",
+      "photo_url": "https://www.freepngimg.com/thumb/mojito/2-mojito-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 45,
+      "price": 55
+    },
+    {
+      "name": "Margarita",
+      "photo_url": "https://www.freepngimg.com/thumb/margarita/2-margarita-png-image-thumb.png",
+      "quantity": "One Glass",
+      "id": 46,
+      "price": 60
+    },
+    {
+      "name": "Whiskey",
+      "photo_url": "https://www.freepngimg.com/thumb/whiskey/2-whiskey-png-image-thumb.png",
+      "quantity": "One Shot",
+      "id": 47,
+      "price": 40
+    },
+    {
+      "name": "Vodka",
+      "photo_url": "https://www.freepngimg.com/thumb/vodka/1-vodka-png-image-thumb.png",
+      "quantity": "One Shot",
+      "id": 48,
+      "price": 35
+    },
+    {
+      "name": "Gin",
+      "photo_url": "https://www.freepngimg.com/thumb/gin/1-gin-png-image-thumb.png",
+      "quantity": "One Shot",
+      "id": 49,
+      "price": 30
+    }
+  ],
+  "seafood": [
+    {
+      "name": "Salmon",
+      "photo_url": "https://www.freepngimg.com/thumb/salmon/2-salmon-png-image-thumb.png",
+      "quantity": "One Fillet",
+      "id": 50,
+      "price": 25
+    },
+    {
+      "name": "Shrimp",
+      "photo_url": "https://www.freepngimg.com/thumb/shrimp/7-shrimp-png-image-thumb.png",
+      "quantity": "One Pound",
+      "id": 51,
+      "price": 20
+    },
+    {
+      "name": "Tuna",
+      "photo_url": "https://www.freepngimg.com/thumb/tuna/4-tuna-png-image-thumb.png",
+      "quantity": "One Fillet",
+      "id": 52,
+      "price": 35
+    },
+    {
+      "name": "Crab",
+      "photo_url": "https://www.freepngimg.com/thumb/crab/2-crab-png-image-thumb.png",
+      "quantity": "One Pound",
+      "id": 53,
+      "price": 30
+    },
+    {
+      "name": "Lobster",
+      "photo_url": "https://www.freepngimg.com/thumb/lobster/2-lobster-png-image-thumb.png",
+      "quantity": "One Pound",
+      "id": 54,
+      "price": 40
+    }
+  ],
+  "packaged_food": [
+    {
+      "name": "Pasta",
+      "photo_url": "https://www.freepngimg.com/thumb/pasta/1-pasta-png-image-thumb.png",
+      "quantity": "One Packet",
+      "id": 55,
+      "price": 5
+    },
+    {
+      "name": "Rice",
+      "photo_url": "https://www.freepngimg.com/thumb/rice/4-rice-png-image-thumb.png",
+      "quantity": "One Packet",
+      "id": 56,
+      "price": 10
+    },
+    {
+      "name": "Canned Soup",
+      "photo_url": "https://www.freepngimg.com/thumb/soup/4-canned-soup-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 57,
+      "price": 3
+    },
+    {
+      "name": "Instant Noodles",
+      "photo_url": "https://www.freepngimg.com/thumb/noodles/7-instant-noodles-png-image-thumb.png",
+      "quantity": "One Packet",
+      "id": 58,
+      "price": 2
+    },
+    {
+      "name": "Cereal",
+      "photo_url": "https://www.freepngimg.com/thumb/cereal/1-cereal-png-image-thumb.png",
+      "quantity": "One Box",
+      "id": 59,
+      "price": 4
+    },
+    {
+      "name": "Canned Vegetables",
+      "photo_url": "https://www.freepngimg.com/thumb/vegetables/7-canned-vegetables-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 60,
+      "price": 3
+    },
+    {
+      "name": "Frozen Pizza",
+      "photo_url": "https://www.freepngimg.com/thumb/pizza/9-pizza-png-image-thumb.png",
+      "quantity": "One Box",
+      "id": 61,
+      "price": 8
+    },
+    {
+      "name": "Granola Bars",
+      "photo_url": "https://www.freepngimg.com/thumb/granola_bar/5-granola-bar-png-image-thumb.png",
+      "quantity": "One Box",
+      "id": 62,
+      "price": 6
+    },
+    {
+      "name": "Canned Fish",
+      "photo_url": "https://www.freepngimg.com/thumb/fish/5-canned-fish-png-image-thumb.png",
+      "quantity": "One Can",
+      "id": 63,
+      "price": 4
+    },
+    {
+      "name": "Snack Chips",
+      "photo_url": "https://www.freepngimg.com/thumb/chips/6-snack-chips-png-image-thumb.png",
+      "quantity": "One Packet",
+      "id": 64,
+      "price": 3
+    }
+  ],
+  "bakery_items": [
+    {
+      "name": "Croissant",
+      "photo_url": "https://www.freepngimg.com/thumb/croissant/6-croissant-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 65,
+      "price": 2.5
+    },
+    {
+      "name": "Baguette",
+      "photo_url": "https://www.freepngimg.com/thumb/baguette/7-baguette-png-image-thumb.png",
+      "quantity": "One Loaf",
+      "id": 66,
+      "price": 3.5
+    },
+    {
+      "name": "Doughnut",
+      "photo_url": "https://www.freepngimg.com/thumb/doughnut/7-doughnut-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 67,
+      "price": 1.5
+    },
+    {
+      "name": "Cinnamon Roll",
+      "photo_url": "https://www.freepngimg.com/thumb/cinnamon_roll/1-cinnamon-roll-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 68,
+      "price": 2
+    },
+    {
+      "name": "Muffin",
+      "photo_url": "https://www.freepngimg.com/thumb/muffin/3-muffin-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 69,
+      "price": 2.25
+    },
+    {
+      "name": "Bagel",
+      "photo_url": "https://www.freepngimg.com/thumb/bagel/2-bagel-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 70,
+      "price": 1.75
+    },
+    {
+      "name": "Scone",
+      "photo_url": "https://www.freepngimg.com/thumb/scone/1-scone-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 71,
+      "price": 2.5
+    },
+    {
+      "name": "Danish Pastry",
+      "photo_url": "https://www.freepngimg.com/thumb/danish_pastry/1-danish-pastry-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 72,
+      "price": 2.75
+    },
+    {
+      "name": "Pretzel",
+      "photo_url": "https://www.freepngimg.com/thumb/pretzel/1-pretzel-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 73,
+      "price": 1.95
+    },
+    {
+      "name": "Eclair",
+      "photo_url": "https://www.freepngimg.com/thumb/eclair/2-eclair-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 74,
+      "price": 3
+    },
+    {
+      "name": "Biscuit",
+      "photo_url": "https://www.freepngimg.com/thumb/biscuit/8-biscuit-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 75,
+      "price": 1.25
+    },
+    {
+      "name": "Cupcake",
+      "photo_url": "https://www.freepngimg.com/thumb/cupcake/1-cupcake-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 76,
+      "price": 2.25
+    },
+    {
+      "name": "Pie",
+      "photo_url": "https://www.freepngimg.com/thumb/pie/1-pie-png-image-thumb.png",
+      "quantity": "One Slice",
+      "id": 77,
+      "price": 3.5
+    },
+    {
+      "name": "Cookie",
+      "photo_url": "https://www.freepngimg.com/thumb/cookie/1-cookie-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 78,
+      "price": 1.75
+    },
+    {
+      "name": "Brownie",
+      "photo_url": "https://www.freepngimg.com/thumb/brownie/5-brownie-png-image-thumb.png",
+      "quantity": "One Piece",
+      "id": 79,
+      "price": 2.75
+    }
+  ]
+}

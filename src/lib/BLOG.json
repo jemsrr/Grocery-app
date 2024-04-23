@@ -1,0 +1,713 @@
+[
+  {
+    "categories": "Vegetable",
+    "name": "Cabbage",
+    "photo_url": "https://www.freepngimg.com/thumb/categories/2970.png",
+    "quantity": "One Unit",
+    "id": 1,
+    "price": 30,
+    "rating": 4.5
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Capsicum",
+    "photo_url": "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
+    "quantity": "One Unit",
+    "id": 2,
+    "price": 5,
+    "rating": 4
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Garlic",
+    "photo_url": "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
+    "quantity": "One Unit",
+    "id": 3,
+    "price": 20,
+    "rating": 3.5
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Beetroot",
+    "photo_url": "https://pngimg.com/uploads/beet/beet_PNG28.png",
+    "quantity": "One Unit",
+    "id": 4,
+    "price": 20,
+    "rating": 5
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Tomatoes",
+    "photo_url": "https://www.freepngimg.com/thumb/categories/2985.png",
+    "quantity": "One Unit",
+    "id": 5,
+    "price": 5,
+    "rating": 4
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Celeriac",
+    "photo_url": "https://w7.pngwing.com/pngs/252/146/png-transparent-celeriac-leaf-vegetable-food-celery-herbes-leaf-vegetable-food-plant-stem-thumbnail.png",
+    "quantity": "One Bunch",
+    "id": 6,
+    "price": 5,
+    "rating": 4.5
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Carrots",
+    "photo_url": "https://www.freepngimg.com/thumb/categories/2971.png",
+    "quantity": "One Kg",
+    "id": 7,
+    "price": 60,
+    "rating": 3.5
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Onions",
+    "photo_url": "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
+    "quantity": "One Kg",
+    "id": 8,
+    "price": 120,
+    "rating": 4
+  },
+  {
+    "categories": "Vegetable",
+    "name": "Potatoes",
+    "photo_url": "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
+    "quantity": "One container",
+    "id": 9,
+    "price": 80,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Apple",
+    "photo_url": "https://www.freepngimg.com/thumb/apple_fruit/3-apple-fruit-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 10,
+    "price": 25,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Banana",
+    "photo_url": "https://www.freepngimg.com/thumb/banana/8-banana-png-image-thumb.png",
+    "quantity": "One Bunch",
+    "id": 11,
+    "price": 15,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Orange",
+    "photo_url": "https://www.freepngimg.com/thumb/orange/4-orange-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 12,
+    "price": 20,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Grapes",
+    "photo_url": "https://www.freepngimg.com/thumb/grape/7-grape-png-image-thumb.png",
+    "quantity": "One Bunch",
+    "id": 13,
+    "price": 35,
+    "rating": 5
+  },
+  {
+    "categories": "fruits",
+    "name": "Strawberry",
+    "photo_url": "https://www.freepngimg.com/thumb/strawberry/4-strawberry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 14,
+    "price": 40,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Pineapple",
+    "photo_url": "https://www.freepngimg.com/thumb/pineapple/1-pineapple-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 15,
+    "price": 30,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Watermelon",
+    "photo_url": "https://www.freepngimg.com/thumb/watermelon/6-watermelon-png-image-thumb.png",
+    "quantity": "One Slice",
+    "id": 16,
+    "price": 10,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Mango",
+    "photo_url": "https://www.freepngimg.com/thumb/mango/1-2-mango-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 17,
+    "price": 45,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Peach",
+    "photo_url": "https://www.freepngimg.com/thumb/peach/2-peach-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 18,
+    "price": 35,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Cherry",
+    "photo_url": "https://www.freepngimg.com/thumb/cherry/1-cherry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 19,
+    "price": 50,
+    "rating": 5
+  },
+  {
+    "categories": "fruits",
+    "name": "Pear",
+    "photo_url": "https://www.freepngimg.com/thumb/pear/3-pear-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 20,
+    "price": 30,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Apricot",
+    "photo_url": "https://www.freepngimg.com/thumb/apricot/1-apricot-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 21,
+    "price": 40,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Raspberry",
+    "photo_url": "https://www.freepngimg.com/thumb/raspberry/1-raspberry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 22,
+    "price": 55,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Blueberry",
+    "photo_url": "https://www.freepngimg.com/thumb/blueberry/1-blueberry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 23,
+    "price": 60,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Blackberry",
+    "photo_url": "https://www.freepngimg.com/thumb/blackberry/1-blackberry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 24,
+    "price": 65,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Cranberry",
+    "photo_url": "https://www.freepngimg.com/thumb/cranberry/1-cranberry-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 25,
+    "price": 70,
+    "rating": 5
+  },
+  {
+    "categories": "fruits",
+    "name": "Coconut",
+    "photo_url": "https://www.freepngimg.com/thumb/coconut/7-coconut-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 26,
+    "price": 25,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Kiwi",
+    "photo_url": "https://www.freepngimg.com/thumb/kiwi_fruit/1-2-kiwi-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 27,
+    "price": 20,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Dragon Fruit",
+    "photo_url": "https://www.freepngimg.com/thumb/dragon_fruit/4-dragon-fruit-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 28,
+    "price": 80,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Papaya",
+    "photo_url": "https://www.freepngimg.com/thumb/papaya/1-papaya-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 29,
+    "price": 35,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Guava",
+    "photo_url": "https://www.freepngimg.com/thumb/guava/4-guava-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 30,
+    "price": 45,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Lychee",
+    "photo_url": "https://www.freepngimg.com/thumb/lychee/2-lychee-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 31,
+    "price": 50,
+    "rating": 5
+  },
+  {
+    "categories": "fruits",
+    "name": "Passion Fruit",
+    "photo_url": "https://www.freepngimg.com/thumb/passion_fruit/6-passion-fruit-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 32,
+    "price": 55,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Plum",
+    "photo_url": "https://www.freepngimg.com/thumb/plum/1-plum-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 33,
+    "price": 60,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Dates",
+    "photo_url": "https://www.freepngimg.com/thumb/date_fruit/5-2-date-fruit-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 34,
+    "price": 65,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Fig",
+    "photo_url": "https://www.freepngimg.com/thumb/fig/2-fig-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 35,
+    "price": 70,
+    "rating": 5
+  },
+  {
+    "categories": "fruits",
+    "name": "Custard Apple",
+    "photo_url": "https://www.freepngimg.com/thumb/custard_apple/2-custard-apple-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 36,
+    "price": 75,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Pomegranate",
+    "photo_url": "https://www.freepngimg.com/thumb/pomegranate/8-pomegranate-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 37,
+    "price": 80,
+    "rating": 4.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Avocado",
+    "photo_url": "https://www.freepngimg.com/thumb/avocado/1-avocado-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 38,
+    "price": 85,
+    "rating": 4
+  },
+  {
+    "categories": "fruits",
+    "name": "Lemon",
+    "photo_url": "https://www.freepngimg.com/thumb/lemon/4-lemon-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 39,
+    "price": 10,
+    "rating": 3.5
+  },
+  {
+    "categories": "fruits",
+    "name": "Lime",
+    "photo_url": "https://www.freepngimg.com/thumb/lime/5-lime-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 40,
+    "price": 5,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/6-milk-png-image-thumb.png",
+    "quantity": "One Liter",
+    "id": 41,
+    "price": 25,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Cheese",
+    "photo_url": "https://www.freepngimg.com/thumb/cheese/1-2-cheese-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 42,
+    "price": 100,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Yogurt",
+    "photo_url": "https://www.freepngimg.com/thumb/yogurt/1-2-yogurt-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 43,
+    "price": 20,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Butter",
+    "photo_url": "https://www.freepngimg.com/thumb/butter/3-butter-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 44,
+    "price": 50,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Cream",
+    "photo_url": "https://www.freepngimg.com/thumb/cream/1-2-cream-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 45,
+    "price": 30,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Condensed Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 46,
+    "price": 40,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Evaporated Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/6-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 47,
+    "price": 45,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Cottage Cheese",
+    "photo_url": "https://www.freepngimg.com/thumb/cheese/1-2-cheese-png-image-thumb.png",
+    "quantity": "One Pack",
+    "id": 48,
+    "price": 60,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Sour Cream",
+    "photo_url": "https://www.freepngimg.com/thumb/cream/1-2-cream-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 49,
+    "price": 25,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Whipped Cream",
+    "photo_url": "https://www.freepngimg.com/thumb/cream/1-2-cream-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 50,
+    "price": 30,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Ice Cream",
+    "photo_url": "https://www.freepngimg.com/thumb/ice_cream/5-2-ice-cream-png-image-thumb.png",
+    "quantity": "One Cone",
+    "id": 51,
+    "price": 15,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Margarine",
+    "photo_url": "https://www.freepngimg.com/thumb/margarine/1-2-margarine-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 52,
+    "price": 40,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Chocolate Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 53,
+    "price": 35,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Almond Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 54,
+    "price": 50,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Cashew Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 55,
+    "price": 55,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Soy Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 56,
+    "price": 60,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Coconut Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 57,
+    "price": 65,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Rice Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 58,
+    "price": 70,
+    "rating": 4
+  },
+  {
+    "categories": "Dairy",
+    "name": "Oat Milk",
+    "photo_url": "https://www.freepngimg.com/thumb/milk/9-milk-png-image-thumb.png",
+    "quantity": "One Can",
+    "id": 59,
+    "price": 75,
+    "rating": 4.5
+  },
+  {
+    "categories": "Dairy",
+    "name": "Whipping Cream",
+    "photo_url": "https://www.freepngimg.com/thumb/cream/1-2-cream-png-image-thumb.png",
+    "quantity": "One Cup",
+    "id": 60,
+    "price": 80,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Bread",
+    "photo_url": "https://www.freepngimg.com/thumb/bread/9-bread-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 61,
+    "price": 20,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Baguette",
+    "photo_url": "https://www.freepngimg.com/thumb/bread/9-bread-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 62,
+    "price": 25,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Croissant",
+    "photo_url": "https://www.freepngimg.com/thumb/croissant/3-croissant-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 63,
+    "price": 15,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Biscuits",
+    "photo_url": "https://www.freepngimg.com/thumb/biscuits/13-biscuits-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 64,
+    "price": 10,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Cake",
+    "photo_url": "https://www.freepngimg.com/thumb/cake/11-cake-png-image-thumb.png",
+    "quantity": "One Kg",
+    "id": 65,
+    "price": 300,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Cookies",
+    "photo_url": "https://www.freepngimg.com/thumb/cookie/10-chocolate-chip-cookie-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 66,
+    "price": 20,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Muffins",
+    "photo_url": "https://www.freepngimg.com/thumb/muffin/2-blueberry-muffin-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 67,
+    "price": 25,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Donuts",
+    "photo_url": "https://www.freepngimg.com/thumb/donut/9-donut-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 68,
+    "price": 15,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Pies",
+    "photo_url": "https://www.freepngimg.com/thumb/pie/10-pie-png-image-thumb.png",
+    "quantity": "One Unit",
+    "id": 69,
+    "price": 50,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Rolls",
+    "photo_url": "https://www.freepngimg.com/thumb/rolls/8-roll-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 70,
+    "price": 30,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Cupcakes",
+    "photo_url": "https://www.freepngimg.com/thumb/cupcake/5-pink-cupcake-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 71,
+    "price": 40,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Bagels",
+    "photo_url": "https://www.freepngimg.com/thumb/bagel/3-bagel-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 72,
+    "price": 35,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Pretzels",
+    "photo_url": "https://www.freepngimg.com/thumb/pretzel/6-pretzel-png-image-thumb.png",
+    "quantity": "One Packet",
+    "id": 73,
+    "price": 45,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Sourdough Bread",
+    "photo_url": "https://www.freepngimg.com/thumb/bread/9-bread-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 74,
+    "price": 55,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Flatbread",
+    "photo_url": "https://www.freepngimg.com/thumb/flatbread/1-2-flatbread-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 75,
+    "price": 60,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Focaccia",
+    "photo_url": "https://www.freepngimg.com/thumb/focaccia/3-focaccia-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 76,
+    "price": 65,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Brioche",
+    "photo_url": "https://www.freepngimg.com/thumb/brioche/2-brioche-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 77,
+    "price": 70,
+    "rating": 4.5
+  },
+  {
+    "categories": "Bakery",
+    "name": "Ciabatta",
+    "photo_url": "https://www.freepngimg.com/thumb/ciabatta/1-2-ciabatta-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 78,
+    "price": 75,
+    "rating": 4
+  },
+  {
+    "categories": "Bakery",
+    "name": "Rye Bread",
+    "photo_url": "https://www.freepngimg.com/thumb/rye_bread/3-rye-bread-png-image-thumb.png",
+    "quantity": "One Loaf",
+    "id": 79,
+    "price": 80,
+    "rating": 4.5
+  }
+]

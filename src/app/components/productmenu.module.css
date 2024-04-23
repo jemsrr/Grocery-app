@@ -1,0 +1,7 @@
+#main:hover #btn {
+  display: inline-flex;
+}
+
+#main:hover #btn2 {
+  display: none;
+}
