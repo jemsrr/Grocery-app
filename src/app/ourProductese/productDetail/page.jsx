@@ -71,7 +71,7 @@ const ProductDetail = () => {
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
-              injected humour, words which don't look even slightly
+              injected humour, words which don{"\u0027"}t look even slightly
               believable.There are many.
             </p>
             <hr />

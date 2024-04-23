@@ -50,7 +50,7 @@ const BlogDetail = () => {
             </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. what is Lorem Ipsum has been the industry's standard
+              industry. what is Lorem Ipsum has been the industry{"\u0027"}s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley is of type and scrambled it to make a type specimen book.
               It has survived not only five centuries, but also the leap into is
@@ -61,7 +61,7 @@ const BlogDetail = () => {
             </p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. what is Lorem Ipsum has been the industry's standard
+              industry. what is Lorem Ipsum has been the industry{"\u0027"}s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley is of type and scrambled it to make a type specimen book.
             </p>
@@ -71,7 +71,7 @@ const BlogDetail = () => {
             </div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. what is Lorem Ipsum has been the industry's standard
+              industry. what is Lorem Ipsum has been the industry{"\u0027"}s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley is of type and scrambled it to make a type specimen book.
               It has survived not only five centuries, but also the leap.
@@ -79,7 +79,7 @@ const BlogDetail = () => {
             <h2 className="font-semibold text-2xl">Any Test Style Here</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. what is Lorem Ipsum has been the industry's standard
+              industry. what is Lorem Ipsum has been the industry{"\u0027"}s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley is of type and scrambled it to make a type specimen book.
               It has survived not only five centuries, but also the leap into is
@@ -134,7 +134,7 @@ const BlogDetail = () => {
             </div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. what is Lorem Ipsum has been the industry's standard
+              industry. what is Lorem Ipsum has been the industry{"\u0027"}s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley is of type and scrambled it to make a type specimen book.
               It has survived not only five centuries, but also the leap.

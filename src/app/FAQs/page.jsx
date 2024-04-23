@@ -20,7 +20,7 @@ const FAQs = () => {
           </h1>
           <h4>
             <Link href={"/"}>Home</Link> -{" "}
-            <span className="text-[#EF682E]">FAQ's</span>
+            <span className="text-[#EF682E]">FAQ{"\u0027"}s</span>
           </h4>
         </div>
       </div>
@@ -58,7 +58,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                How can I be certain my booking's been received?
+                How can I be certain my booking{"\u0027"}s been received?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -71,7 +71,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                What happens if I'm running late?
+                What happens if I{"\u0027"}m running late?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -130,7 +130,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                How can I be certain my booking's been received?
+                How can I be certain my booking{"\u0027"}s been received?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -143,7 +143,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                What happens if I'm running late?
+                What happens if I{"\u0027"}m running late?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -202,7 +202,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                How can I be certain my booking's been received?
+                How can I be certain my booking{"\u0027"}s been received?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -215,7 +215,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                What happens if I'm running late?
+                What happens if I{"\u0027"}m running late?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -274,7 +274,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                How can I be certain my booking's been received?
+                How can I be certain my booking{"\u0027"}s been received?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>
@@ -287,7 +287,7 @@ const FAQs = () => {
             </div>
             <div id={main} className="group">
               <h2 className="flex justify-between items-center p-2 border-2 border-[#EF682E20] rounded-lg group-hover:bg-[#609E45] group-hover:text-white">
-                What happens if I'm running late?
+                What happens if I{"\u0027"}m running late?
                 <FaAngleDown id={btn2} className="inline animate-bounce" />
                 <FaAngleUp id={btn} className=" hidden animate-bounce" />
               </h2>

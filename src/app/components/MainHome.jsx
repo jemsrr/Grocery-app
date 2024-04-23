@@ -22,7 +22,7 @@ const MainHome = () => {
         <p className="text-xl">
           Lorem ipsum dolor sit amen, consectetur adipescent alit, sed do
           eiusmod tempor incident ut labored et dolore magna aliquant. Et
-          ejecta's quiz.
+          ejecta{"\u0027"}s quiz.
         </p>
         <Link
           href={"/ourProductese"}

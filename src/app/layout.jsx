@@ -20,7 +20,9 @@ export default function RootLayout({ children }) {
     <Providers>
       <html lang="en">
         <body className={`${poppins.variable}`}>
-          <Layout children={children} />   
+          <>
+            <Layout children={children} />
+          </>
         </body>
       </html>
     </Providers>

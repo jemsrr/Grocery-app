@@ -65,7 +65,7 @@ const ContactUs = () => {
           </div>
           <p className="md:w-[45%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy abd
+            industry. Lorem Ipsum has been the industry{"\u0027"}s standard dummy abd
             text ever since. dummy text.
           </p>
         </div>

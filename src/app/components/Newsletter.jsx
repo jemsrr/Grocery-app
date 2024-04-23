@@ -7,7 +7,7 @@ const Newsletter = () => {
         <h1 className="font-bold text-3xl">Subscribe to newsletter</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy tex
+          industry. Lorem Ipsum has been the industry{"\u0027"}s standard dummy tex
         </p>
         <form className="grid sm:grid-cols-4 gap-4">
           <input
