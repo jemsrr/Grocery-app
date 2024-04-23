@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
             <p>
               Lorem Ipsum is simply it is dummy rummy dummy text of the since it
-              is printing and typesetting{"\u0027"}s the and it industry's standard dummy
+              is printing and typesetting{"\u0027"}s the and it industry{"\u0027"}s standard dummy
               text ever since the 150.
             </p>
             <h3>Address</h3>
