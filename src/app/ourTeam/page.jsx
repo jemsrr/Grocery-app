@@ -19,7 +19,7 @@ import {
 const OurTeam = () => {
   return (
     <div className="font-Poppins">
-      <div className="relative grid place-content-center content-center text-center px-[5%] h-full bg-[url('../../public/main.png')] bg-pink-50 bg-no-repeat bg-cover">
+      <div className="relative min-h-80 grid place-content-center content-center text-center px-[5%] h-full bg-[url('../../public/main.png')] bg-pink-50 bg-no-repeat bg-cover">
         <Image
           src={gd}
           alt=""

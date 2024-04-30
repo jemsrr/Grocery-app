@@ -110,10 +110,16 @@ const Navbar = () => {
             onClick={() => setMenuBar("hidden")}
             className="sm:hidden"
           />
-          <Link href={"/"} className="hover:text-[#609E45]">
+          <Link
+            href={"/"}
+            className="hover:text-[#609E45]"
+          >
             Home
           </Link>
-          <Link href={"/aboutUs"} className="hover:text-[#609E45]">
+          <Link
+            href={"/aboutUs"}
+            className="hover:text-[#609E45]"
+          >
             About Us
           </Link>
           <Link

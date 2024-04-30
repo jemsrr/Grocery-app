@@ -5,12 +5,12 @@ import Navbar from "./Navbar";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {
+const Layout = ({ childrenProp }) => {
   const path = usePathname();
   if (path === "/signup" || path === "/login" || path === "/404" || path === "/comingSoon") {
     return (
       <>
-        <main>{children}</main>
+        <main>{childrenProp}</main>
       </>
     );
   }
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     return (
       <>
         <Navbar />
-        <main>{children}</main>
+        <main>{childrenProp}</main>
         <Newsletter />
         <div className="bg-[#609E45] h-10"></div>
       </>
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main>{childrenProp}</main>
       <Newsletter />
       <Footer />
     </>
