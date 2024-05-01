@@ -18,7 +18,12 @@ import {
   AiOutlineMenu,
   AiOutlineClose,
 } from "react-icons/ai";
-import { useState } from "react";
+import { useState, Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 const Navbar = () => {
   const [menubar, setMenuBar] = useState("hidden");
@@ -110,16 +115,10 @@ const Navbar = () => {
             onClick={() => setMenuBar("hidden")}
             className="sm:hidden"
           />
-          <Link
-            href={"/"}
-            className="hover:text-[#609E45]"
-          >
+          <Link href={"/"} className="hover:text-[#609E45]">
             Home
           </Link>
-          <Link
-            href={"/aboutUs"}
-            className="hover:text-[#609E45]"
-          >
+          <Link href={"/aboutUs"} className="hover:text-[#609E45]">
             About Us
           </Link>
           <Link
@@ -151,10 +150,61 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="flex justify-end gap-2 md:gap-4 items-start md:items-center">
-          <li className="flex justify-start items-center">
-            My Account
-            <AiOutlineDown />
-          </li>
+          <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                My Account
+                <AiOutlineDown />
+              </Menu.Button>
+            </div>
+
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div className="py-1">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link
+                        href={"/login"}
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Login
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link
+                        href={"/signup"}
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Sign Up
+                      </Link>
+                    )}
+                  </Menu.Item>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
+
+          <li className="flex justify-start items-center"></li>
           <AiOutlineHeart className="text-[#EF682E] text-2xl md:text-4xl font-bold bg-[#EF682E20] rounded-full p-1 h-min" />
           <Link href={"/cart"} className="relative">
             <AiOutlineShoppingCart className="text-[#EF682E] text-2xl md:text-4xl font-bold bg-[#EF682E20] rounded-full p-1 h-min" />
