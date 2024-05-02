@@ -8,7 +8,7 @@ const defaultValue = {
   email: "",
   password: "",
 };
-const login = () => {
+const Login = () => {
   const router = useRouter();
   const [data, setData] = useState(defaultValue);
 
@@ -86,4 +86,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;

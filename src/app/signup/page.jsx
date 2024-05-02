@@ -10,7 +10,7 @@ const defaultValue = {
   conformPassword: "",
   check: false,
 };
-const signUp = () => {
+const SignUp = () => {
   const router = useRouter();
   const [data, setData] = useState(defaultValue);
   const onValueChange = (e) => {
@@ -119,4 +119,4 @@ const signUp = () => {
   );
 };
 
-export default signUp;
+export default SignUp;
