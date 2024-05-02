@@ -85,7 +85,7 @@ const Login = () => {
             Login Now
           </button>
           <p className="text-center mt-4">
-            Don't have an account?
+            Don&apos;t have an account?
             <Link href="/signup" className="text-blue-500 hover:underline">
               SignUp
             </Link>
