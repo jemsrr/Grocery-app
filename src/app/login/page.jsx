@@ -1,6 +1,7 @@
 "use client";
 
 import axios from "axios";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -30,6 +31,9 @@ const Login = () => {
     try {
       const res = await axios.post("api/user/login", data);
       setData(defaultValue);
+      if (res.data.message === "user not exist") {
+        alert("user not found");
+      }
       if (res.status === 200) {
         router.push("/");
       }
@@ -80,6 +84,12 @@ const Login = () => {
           >
             Login Now
           </button>
+          <p className="text-center mt-4">
+            Don't have an account?
+            <Link href="/signup" className="text-blue-500 hover:underline">
+              SignUp
+            </Link>
+          </p>
         </form>
       </div>
     </div>

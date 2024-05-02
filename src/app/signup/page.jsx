@@ -1,5 +1,6 @@
 "use client";
 import axios from "axios";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -113,6 +114,12 @@ const SignUp = () => {
           >
             Sign Up Now
           </button>
+          <p className="text-center mt-4">
+            Already have an account?
+            <Link href="/login" className="text-blue-500 hover:underline">
+              Login
+            </Link>
+          </p>
         </form>
       </div>
     </div>

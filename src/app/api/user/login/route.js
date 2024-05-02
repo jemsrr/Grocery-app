@@ -9,9 +9,11 @@ export const POST = async (NextRequest) => {
   try {
     const data = await NextRequest.json();
     const { email, password } = data;
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email, password });
     if (!user) {
-      return new Response("user not exist", { status: 401 });
+      // return new Response("user not exist", { status: 401 });
+      const response = NextResponse.json({ message: "user not exist" });
+      return response;
     }
     const tokenData = {
       email: user.email,
