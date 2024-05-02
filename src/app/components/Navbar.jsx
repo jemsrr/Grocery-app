@@ -20,13 +20,26 @@ import {
 } from "react-icons/ai";
 import { useState, Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import axios from "axios";
+import { useRouter } from "next/navigation";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 const Navbar = () => {
   const [menubar, setMenuBar] = useState("hidden");
+  const router = useRouter();
+  const onLogout = async () => {
+    try {
+      const res = await axios.get("api/user/logout");
+      if (res.status === 200) {
+        router.push("/login");
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <div className="font-Poppins ">
       <div className=" grid bg-[#609E45] px-[5%] py-2 text-white text-xs  justify-between items-center md:flex     ">
@@ -150,15 +163,18 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="flex justify-end gap-2 md:gap-4 items-start md:items-center">
-          <Menu as="div" className="relative inline-block text-left">
-            <div>
-              <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-                My Account
-                <AiOutlineDown />
-              </Menu.Button>
-            </div>
+          {/* <Menu as="div" className="relative inline-block text-left"> */}
+          <div>
+            <button
+              onClick={onLogout}
+              className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+            >
+              logout
+              {/* <AiOutlineDown /> */}
+            </button>
+          </div>
 
-            <Transition
+          {/* <Transition
               as={Fragment}
               enter="transition ease-out duration-100"
               enterFrom="transform opacity-0 scale-95"
@@ -201,8 +217,8 @@ const Navbar = () => {
                   </Menu.Item>
                 </div>
               </Menu.Items>
-            </Transition>
-          </Menu>
+            </Transition> */}
+          {/* </Menu> */}
 
           <li className="flex justify-start items-center"></li>
           <AiOutlineHeart className="text-[#EF682E] text-2xl md:text-4xl font-bold bg-[#EF682E20] rounded-full p-1 h-min" />
